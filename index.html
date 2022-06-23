@@ -1,80 +1,137 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
-</head>
-<body>
-    <header>
-        <a href="/"> <img src="./image/Logo.jpg" alt="Logo"></a>
-        <!-- menu -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">О нас</a>
-                </li>
-                <li>
-                    <a href="/">Услуги и цены</a>
-                </li>
-                <li>
-                    <a href="/">Мастера</a>
-                </li>
-                <li>
-                    <a href="/">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="tel:++380441111111">+38 044 111 11 11</a>
-        <button>онлайн-запись</button>
-        <!-- baner -->
-        <section>
-        <img src="./image/Slider.jpg" alt="barbergalery" width="1125">
-        <hr>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>Мы эксперты в модных мужских стрижках <br>
-        Работаем быстро, осторожно и со вкусом.</p>
-        </section>
-        <!-- slide baner -->
-        <section>
-            <ul>
-                <li> <br> </li>
-                <li> <a href="/">Instagram</a></li>
-                <li> <a href="/">Youtube</a></li>
-            </ul>            
-        </section>
-        <!-- About us -->
-        <section>
-            <ul>
-                <li> <img src="./image/img-1.jpg" alt="workexample" width="270"></li>
-                <li> <img src="./image/img-2.jpg" alt="workexample2" width="270"></li>
-            </ul>
-            <hr>
-            <p>О НАС</p>
-            <h2>Лучший Барбершоп
-            твоего города</h2>
-            <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-            <p>Мы команда, которая никогда не останавливается на достигнутом
-            и жаждет перемен. И когда ты попадешь в руки нашего мастера,
-            то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда
-            готовы усовершенствовать каждого, кто к нам приходит!</p>
-            <button>онлайн-запись</button>
-        </section>
-        <!-- prices and services -->
-        <section>
-            <img src="./image/img@2x.jpg" alt="background" width="1280">
-            <br>
-            <p>Проведи время в компании лучших мастеров</p>
-            <table>
-                <thead>Услуги и цены</thead>
-                <tbody>
-                    
-                </tbody>
-            </table>
-        </section>
-
+  </head>
+  <body>
+    <!-- menu -->
+    <header class="header">
+      <a class="Logo" href="./index.html">
+        <img class="logo-img" src="./image/Logo.jpg" alt="логотип" width="69"
+      /></a>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="/">О нас</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="/">Услуги и цены</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="/">Мастера</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="/">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="tel" href="tel:++380441111111">+38 044 111 11 11</a>
+      <button class="heder-btn" type="button">онлайн-запись</button>
     </header>
-</body>
+    <!-- baner -->
+    <main>
+    <section class="hero">
+       <ul class="hero-list">
+      <li class="hero-item">
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer "
+          href=""
+          >Instagram
+        </a>
+      </li>
+      <li class="footer-item">
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/"
+          >Youtube</a
+        >
+      </li>
+    </ul> 
+
+      <p>A hair salon for men in Kyiv</p>
+      <h1 lang="eng">BarberShop</h1>
+      <p>
+        Мы эксперты в модных мужских стрижках <br />
+        Работаем быстро, осторожно и со вкусом.
+      </p>
+      <div class="paginational">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul>
+        <li><button type="button">Назад</button></li>
+        <li><button type="buton">Вперед</button></li>
+      </ul>
+    </section>
+   
+    <!-- About us -->
+    <section class="about">
+      <ul class="abot-list">
+        <li class="about-list-item">
+            <img class="about-list-img" src="./image/img-1.jpg" alt="примеры работ" width="270" />
+        </li>
+        <li class="about-list-item">
+          <img class="about-list-img" src="./image/img-2.jpg" alt="примеры работ" width="270" />
+        </li>
+      </ul>
+      <p class="about-uppertitel">О НАС</p>
+      <h2>Лучший Барбершоп твоего города</h2>
+      <h3>
+        Если ты хочешь добавить в свой образ больше уверенности – тебе точно к
+        нам.
+      </h3>
+      <p class="about-discription">
+        Мы команда, которая никогда не останавливается на достигнутом и жаждет
+        перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не
+        сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
+        волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам
+        приходит!
+      </p>
+      <button type="button">онлайн-запись</button>
+    </section>
+<!-- prices and services -->
+    <section>
+      <p></p>
+      <h2></h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+  </body>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-cop">&copy; Copyright 2020</p>
+    <ul class="footer-list">
+      <li class="footer-item">
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer "
+          href=""
+          >Instagram
+        </a>
+      </li>
+      <li class="footer-item">
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/"
+          >Youtube</a
+        >
+      </li>
+    </ul>
+  </footer>
 </html>
