@@ -1,0 +1,40 @@
+/* reset style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+}
+/* Base style */
+:root {
+    /* fonts */
+    --main-font: 'Open Sans',
+        sans-serif;
+    --acent-font: 'Raleway',
+        sans-serif;
+    /* color */
+    --acent: #FF6C00;
+    --text-main: #303030;
+    --white: #FFFFFF;
+    --text-second: #555555;
+}
+body {
+    font-family: var(--main-font)   
+}
