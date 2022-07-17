@@ -11,13 +11,15 @@ p {
 a {
     display: block;
     text-decoration: none;
-    color: inherit;
+    color: currentColor;
 }
 button {
     color: inherit;
 }
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 img {
     display: block;
@@ -34,7 +36,121 @@ img {
     --text-main: #303030;
     --white: #FFFFFF;
     --text-second: #555555;
+    --text-acent: #9DA4BD;
 }
 body {
-    font-family: var(--main-font)   
+    font-family: var(--main-font); 
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--text-main);
+}
+.btn {
+    width: 160px;
+    height: 40px;
+    padding: 12px 20px;
+    border: 1px solid var(--acent);
+    border-radius: 25px;
+    background-color: inherit;
+    cursor: pointer;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Header style */
+.header {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    margin-right: 70px;
+}
+.header-list,
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.1em;
+    color: var(--white);
+}
+.contact {
+    margin-left: auto;
+    text-transform: uppercase;
+}
+/* Hero style */
+.hero {
+    width: 1125px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./image/Slider\ img.jpg),
+    linear-gradient(to right, rgb(255, 255, 255) 155px, rgba(25, 28, 38, 0.2) 155px);
+    background-repeat: no-repeat;
+    background-position: top right, center;
+}
+.hero-list {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15/11);
+    letter-spacing: 0.2em;
+        
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+}
+.hero-discription {
+    line-height: calc(30/18);
+    letter-spacing: 0.02em;
+    color: var(--text-acent)
+}
+.uppertitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15/11);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+}
+.about-container,
+.about-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-list {
+    width: 270px;
+    height: 445px;
+    gap: 30px;
+}
+.discription {
+    width: 500px;
+   
+}
+.advantege-list {
+    display: flex;
+}
+.price-container {
+    display: flex;
+}
+.masters-list {
+    display: flex;
+}
+.gallery-list {
+    display: flex;
 }
